@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cars</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Ajax cars</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="filters">
+            <div class="filters-title">
+                Select a category:
+            </div>
+            <input type="checkbox" class="checkbox" id="germany" />
+            <label for="germany">germany</label>
+
+            <input type="checkbox" class="checkbox" id="italian" />
+            <label for="italian">italian</label>
+
+            <input type="checkbox" class="checkbox" id="france" />
+            <label for="france">france</label>
+        </div>
+        
+        <div class="products"></div>
+    
+    </div>
+
+    <div class="overlay">
+        <div class="popup">
+            <div class="popup-close">&times;</div>
+            <div class="popup-img"></div>
+        </div>
+    </div>
+    
+	<script src="js/script.js"></script>
+</body>
+</html>
